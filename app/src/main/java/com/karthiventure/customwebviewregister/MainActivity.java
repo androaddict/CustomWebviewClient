@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onPageStarted(WebView view, String url, Bitmap favicon) {
                 super.onPageStarted(view, url, favicon);
-                Log.d(TAG, "onPageStarted: with url " + url);
+                Log.d(TAG, "onPageStarted : with url " + url);
             }
 
             @Override
